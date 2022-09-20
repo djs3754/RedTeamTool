@@ -1,0 +1,5 @@
+---
+- name: Run WinKey
+  tasks:
+    - name: "Join Domain"
+      win_command: powershell.exe -ExecutionPolicy ByPass -File C:/temp/WinKey.ps1
